@@ -3,7 +3,7 @@ function Game(){
 	this.wordToGuess = [/*"L","A","G","E","R"*/];
 	this.guessesLeft = 9;
 	this.winCounter = 0;
-	this.wordBank= ["LAGER", "PINT", "YEAST", "PALE"];
+	this.wordBank= ["LAGER","PINT","WHISKEY","CRAFT","BARLEY","SPARGE","PILSNER","FLANDERS","BELGIUM"];
 	this.alreadyGuess = [];
 	this.wrongGuess = [];
 	this.letterObjs = [];
